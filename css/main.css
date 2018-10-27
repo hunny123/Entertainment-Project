@@ -2,7 +2,9 @@ body{
 	background-color: #EDE8E8!important;
 	
 }
-
+*:focus{
+	outline: none;
+}
 .download-buttons {
       font-size: 18px;
       margin-top: 10px;
