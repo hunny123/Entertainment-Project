@@ -1,0 +1,181 @@
+body{
+	background-color: #EDE8E8!important;
+	
+}
+
+.download-buttons {
+      font-size: 18px;
+      margin-top: 10px;
+      text-decoration: none;
+      color: hotpink;
+      background: #EDE8E8;
+      box-shadow: 0px 6px 5px -1px rgba(50, 50, 50, 0.5);
+
+    }
+  .download-buttons:hover {
+      box-shadow: none;
+    }
+   
+
+
+
+::-webkit-scrollbar {
+    width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background:grey; 
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius:10px;
+    background:hotpink ; 
+}
+::-webkit-scrollbar-track:hover {
+    background:purple; 
+
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:#45C4D8 ; 
+}
+.text-purple{
+  color:purple;
+}	
+.nav-setting{
+	
+	-webkit-box-shadow: 0px 6px 5px -1px rgba(50,50,50,0.8);
+   -moz-box-shadow: 0px 6px 5px -1px rgba(50,50,50,0.8);
+   box-shadow: 0px 6px 5px -1px rgba(50,50,50,0.5);
+   z-index:4;
+}
+.nav-setting ul{
+	margin-right:15%;
+}
+.nav-setting a{
+   color:white !important;
+   font-weight: 400;
+   font-size: 18px;
+   text-decoration: none;
+   margin:5px;
+}
+.nav-setting a:hover{
+	color:purple;
+	
+	background-color:rgba(255,255,255,0.2);
+}
+.navbar-toggler{
+	background-image:url('menu.png');
+	background-size:100%;
+}
+.dropdown-menu{
+	background-color:#7D13A8 !important;
+	border-radius:10px !important;
+
+
+
+}
+.dropdown-menu a{
+	color:white!important;
+}
+
+.navbar-collapse {
+	
+
+}
+.icon-size{
+	font-size:100px !important;
+}
+
+.backy{
+	margin-top:25%;
+
+}
+.social-icon{
+  border:2px solid white;
+  margin:2px;
+  padding:3px;
+  height: 45px;
+  width: 50px;
+  font-size: 30px !important;
+}
+.social-icon:hover{
+  color:green;
+}
+.contact{
+  background-color:white;
+  border-radius:5px;
+  box-shadow: -3px 8px 5px -3px rgba(235,228,235,1);
+}
+.contact input{
+  width: 46.5%;
+  height:60px;
+  margin-bottom: 3%;
+  border-radius:5px;
+  border:none;
+  background:rgba(240,240,240,0.6);
+  
+ 
+
+
+}
+.background{
+  
+  background-repeat: no-repeat; 
+  background-size: cover;
+  margin-top:-10px;
+  
+}
+.contact input::placeholder{
+ 
+  padding-left: 3px;
+  
+}
+.contact textarea{
+    width: 95.8%;
+    background:rgba(240,240,245,0.6);
+    border-radius:5px;
+    padding:2%;
+    height:115px;
+    border:none;
+    
+}
+
+.contact input,textarea:focus{
+  outline:none;
+}
+.contact-footer a{
+  color:inherit !important;
+  text-decoration: none !important;
+
+
+}
+.icon-size2 {
+  font-size:50px !important;
+
+}
+
+
+
+.header1{
+	margin-top:15%;
+	margin-left:13%;
+}
+.color1{
+	background-color: purple !important;
+
+}
+.color2{
+	background-color: black;
+
+}
+.partner a{
+	color:white;
+	text-decoration: none!important;	
+}
+.partner a:hover{
+	color:white;
+}
