@@ -11,7 +11,8 @@ $(document).ready(function(){
     <div class="card pb-3 " style="width:100%;height:100%">
     <iframe class="iframe-size" src="https://www.youtube.com/embed/${b.items[i].snippet.resourceId.videoId}",allow="autoplay encrypted-media" frameborder='0' allowFullScreen width="100%" height="200px"></iframe><div class="card-body pb-2 "style="background:hotpink">
     <h4 class="card-title  text-white"> Title:-${b.items[i].snippet.title}</h4><center>
-   <a href='http://api.youtube6download.top/fetch/link.php?i=${b.items[i].snippet.resourceId.videoId}' class="btn  pt-3 ml-2 download-buttons" target="blank"><i class="fa fa-download pr-1"></i> Download Mp3</a>
+
+   <a href='https://www.yt-download.org/@api/button/mp3/${b.items[i].snippet.resourceId.videoId}' class="btn  pt-3 ml-2 download-buttons" target="blank"><i class="fa fa-download pr-1"></i> Download Mp3</a>
     <a href="https://break.tv/widget/mp4/?link=https://www.youtube.com/watch?v=${b.items[i].snippet.resourceId.videoId}"class="btn pt-3 ml-2 download-buttons" target="blank"><i class="fa fa-download  pr-1"></i> Download Mp4</a></center></div></div> </div>`)
         
       
@@ -63,7 +64,7 @@ $("#search-click").click(function(){
     <div class="card pb-5 " style="width:100%;height:100%">
     <iframe class="iframe-size mt-1" src="https://www.youtube.com/embed/${b.items[i].id.videoId}",allow="autoplay encrypted-media" frameborder='0' allowFullScreen width="100%" height="200px"></iframe><div class="card-body "style="background:hotpink">
     <h4 class="card-title  text-white"> Title:-${b.items[i].snippet.channelTitle}</h4><center>
-   <a href='http://api.youtube6download.top/fetch/link.php?i=${b.items[i].id.videoId}' class="btn  pt-3 ml-2 download-buttons" target="blank"><i class="fa fa-download pr-1"></i> Download Mp3</a>
+   <a href='https://www.yt-download.org/@api/button/mp3/${b.items[i].id.videoId}' class="btn  pt-3 ml-2 download-buttons" target="blank"><i class="fa fa-download pr-1"></i> Download Mp3</a>
     <a href="https://break.tv/widget/mp4/?link=https://www.youtube.com/watch?v=${b.items[i].id.videoId}"class="btn pt-3 ml-2 download-buttons" target="blank"><i class="fa fa-download  pr-1"></i> Download Mp4</a></center></div></div> </div> `)
 
     }
